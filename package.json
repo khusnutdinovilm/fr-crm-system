@@ -7,9 +7,17 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@vueuse/head": "^1.1.26",
+    "chart.js": "^4.3.2",
+    "firebase": "^10.1.0",
+    "materialize-css": "^1.0.0-rc.2",
+    "vee-validate": "^4.10.8",
     "vue": "^3.2.13",
+    "vue-chartjs": "^5.2.0",
     "vue-router": "^4.0.3",
-    "vuex": "^4.0.0"
+    "vuejs-paginate-next": "^1.0.2",
+    "vuex": "^4.0.0",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-router": "~5.0.0",

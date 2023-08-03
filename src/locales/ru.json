@@ -1,0 +1,189 @@
+{
+  "crm-title": "Домашняя бухгалтерия",
+  "titles": {
+    "sign-in": "Вход",
+    "sign-up": "Регистрация",
+    "home": "Счет",
+    "history": "История",
+    "planning": "Планирование",
+    "new-record": "Новая запись",
+    "category": "Категории",
+    "detail": "Запись",
+    "profile": "Профиль"
+  },
+  "add-new-record": "Добавить новую запись",
+  "buttons": {
+    "update": "Обновить",
+    "create": "Создать",
+    "sign-in": "Войти",
+    "sign-up": "Зарегистрироваться",
+    "sign-out": "Выйти"
+  },
+  "errors": {
+    "error": "Ошибка",
+    "unknown": "Неизвестная ошибка",
+    "logout": "Вы вышли из системы",
+    "auth": "Для начала войдите в систему",
+    "wrong-password": "Неверный пароль",
+    "no-user": "Пользователя с таким email не существует",
+    "email-exists": "Пользователь с таким email уже существует",
+    "too-many-request": "Слишком много попыток входа. Попробуйте позже."
+  },
+  "sign-in": {
+    "inputs": {
+      "password": "Пароль"
+    },
+    "no-account": "Нет аккаунта?",
+    "errors": {
+      "email": {
+        "required": "Поле Email не должно быть пустым",
+        "valid": "Введите корретный Email",
+        "exists": "Email уже занят"
+      },
+      "password": {
+        "required": "Поле не должно быть пустым",
+        "min-length": "Минимальное значение "
+      }
+    }
+  },
+  "sign-up": {
+    "inputs": {
+      "password": "Пароль",
+      "name": "Имя"
+    },
+    "has-account": "Уже есть аккаунт?",
+    "accept-rules": "С правилами согласен",
+    "errors": {
+      "name": {
+        "required": "Email field is required"
+      },
+      "email": {
+        "required": "Поле Email не должно быть пустым",
+        "valid": "Введите корретный Email",
+        "exists": "Email уже занят"
+      },
+      "password": {
+        "required": "Поле не должно быть пустым",
+        "min-length": "Минимальное значение "
+      }
+    }
+  },
+  "profile": {
+    "title": "Профиль",
+    "inputs": {
+      "name": "Имя"
+    },
+    "errors": {
+      "name": {
+        "required": "Поле не должно быть пустым"
+      }
+    }
+  },
+  "home": {
+    "title": "Счет",
+    "bill-in-currency": "Счет в валюте",
+    "exchange-rate": "Курс валют",
+    "currency-table": {
+      "currency": "Валюта",
+      "rate": "Курс",
+      "date": "Дата"
+    }
+  },
+  "history": {
+    "title": "История",
+    "empty-records": "Список записей пуст.",
+    "add-record": "Добавьте новую запись.",
+    "table": {
+      "amount": "Сумма",
+      "date": "Дата",
+      "category": "Категория",
+      "type": "Тип",
+      "open": "Открыть"
+    },
+    "chart": {
+      "label": "Расходы по категориям"
+    }
+  },
+  "planning": {
+    "title": "Планирование",
+    "empty-categories": "Список категорий пуст.",
+    "add-category": "Добавьте новую категорию.",
+    "tooltip": {
+      "more-than": "Превышение на",
+      "stayed": "Осталось "
+    }
+  },
+  "record": {
+    "title": "Новая запись",
+    "empty-categories": "Список категорий пуст.",
+    "add-category": "Добавьте новую категорию.",
+    "inputs": {
+      "select": "Выберите категорию",
+      "type": {
+        "income": "Доход",
+        "outcome": "Расход"
+      },
+      "amount": "Сумма",
+      "description": "Описание"
+    },
+    "errors": {
+      "amount": {
+        "required": "Поле не должно быть пустым",
+        "type": "Введите число",
+        "positive": "Введите положительное число",
+        "min-length": "Минимальное значение 1"
+      },
+      "description": {
+        "required": "Поле не должно быть пустым"
+      }
+    }
+  },
+  "category": {
+    "title": "Категории",
+    "empty-categories": "Список категорий пуст. Добавьте новую категорию.",
+    "create": "Создать",
+    "edit": "Редактировать",
+    "inputs": {
+      "select": "Выберите категорию",
+      "name": "Название",
+      "limit": "Лимит"
+    },
+    "errors": {
+      "name": {
+        "required": "Поле не должно быть пустым"
+      },
+      "limit": {
+        "required": "Поле не должно быть пустым",
+        "type": "Введите число",
+        "positive": "Введите положительное число",
+        "min-length": "Минимальное значение 1"
+      }
+    }
+  },
+  "detail": {
+    "not-found": {
+      "record": "Запись с id=",
+      "not-found": "не найдена"
+    },
+    "breadcrumb": {
+      "history": "История",
+      "income": "Доход",
+      "outcome": "Расход"
+    },
+    "record-card": {
+      "description": "Описание",
+      "amount": "Сумма",
+      "category": "Категория"
+    }
+  },
+  "message": {
+    "category": {
+      "created": "Категория создана",
+      "updated": "Категория обновлена"
+    },
+    "record": {
+      "created": "Запись создана",
+      "insufficient": "Не достаточно средств. Не хватает "
+    }
+  }
+}

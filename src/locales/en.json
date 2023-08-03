@@ -1,0 +1,189 @@
+{
+  "crm-title": "Home accounting",
+  "titles": {
+    "sign-in": "Sign in",
+    "sign-up": "Sign up",
+    "home": "Bill",
+    "history": "History",
+    "planning": "Planning",
+    "new-record": "New record",
+    "category": "Categories",
+    "detail": "Record",
+    "profile": "Profile"
+  },
+  "add-new-record": "Add new record",
+  "buttons": {
+    "update": "Update",
+    "create": "Create",
+    "sign-in": "Sign-in",
+    "sign-up": "Sign-up",
+    "sign-out": "Exit"
+  },
+  "errors": {
+    "error": "Error",
+    "unknown": "Unknown error",
+    "logout": "You have logged out",
+    "login": "First login",
+    "wrong-password": "Wrong password",
+    "no-user": "No user with this email",
+    "email-exists": "Email is already in use",
+    "too-many-request": "Too many atempts. Try again later"
+  },
+  "sign-in": {
+    "inputs": {
+      "password": "Password"
+    },
+    "no-account": "Has no account?",
+    "errors": {
+      "email": {
+        "required": "Email field is required",
+        "valid": "Enter valid email",
+        "exists": "Email is already in use"
+      },
+      "password": {
+        "required": "Password fiels is required",
+        "min-length": "Mininum length is "
+      }
+    }
+  },
+  "sign-up": {
+    "inputs": {
+      "password": "Password",
+      "name": "Name"
+    },
+    "has-account": "Has account?",
+    "accept-rules": "Agree with rules",
+    "errors": {
+      "name": {
+        "required": "Name field is required"
+      },
+      "email": {
+        "required": "Email field is required",
+        "valid": "Enter valid email",
+        "exists": "Email is already in use"
+      },
+      "password": {
+        "required": "Password fiels is required",
+        "min-length": "Mininum length is "
+      }
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "inputs": {
+      "name": "Name"
+    },
+    "errors": {
+      "name": {
+        "required": "Name field is required"
+      }
+    }
+  },
+  "home": {
+    "title": "Bill",
+    "bill-in-currency": "Bill in currencies",
+    "exchange-rate": "Currencies rates",
+    "currency-table": {
+      "currency": "Currency",
+      "rate": "Currency rate",
+      "date": "Date"
+    }
+  },
+  "history": {
+    "title": "History",
+    "empty-records": "The list of records is still empty.",
+    "add-record": "Add new record.",
+    "table": {
+      "amount": "Amount",
+      "date": "Date",
+      "category": "Category",
+      "type": "Type",
+      "open": "Optn"
+    },
+    "chart": {
+      "label": "Categories costs"
+    }
+  },
+  "planning": {
+    "title": "Planning",
+    "empty-categories": "The list of categories is still empty.",
+    "add-category": "Add new category.",
+    "tooltip": {
+      "more-than": "Excess on",
+      "stayed": "Left"
+    }
+  },
+  "record": {
+    "title": "New record",
+    "empty-categories": "The list of categories is still empty.",
+    "add-category": "Add new category.",
+    "inputs": {
+      "select": "Select category",
+      "type": {
+        "income": "Income",
+        "outcome": "Outcome"
+      },
+      "amount": "Amount",
+      "description": "Description"
+    },
+    "errors": {
+      "amount": {
+        "required": "Amount field is required",
+        "type": "Enter a number",
+        "positive": "Enter a positive number",
+        "min-length": "Mininum length is 1"
+      },
+      "description": {
+        "required": "Description field is required"
+      }
+    }
+  },
+  "category": {
+    "title": "Categories",
+    "empty-categories": "The list of categories is still empty. Add new category.",
+    "create": "Create",
+    "edit": "Edit",
+    "inputs": {
+      "select": "Select category",
+      "name": "Title",
+      "limit": "Limit"
+    },
+    "errors": {
+      "limit": {
+        "required": "Limit field is required",
+        "type": "Enter a number",
+        "positive": "Enter a positive number",
+        "min-length": "Mininum length is 1"
+      },
+      "name": {
+        "required": "Title field is required"
+      }
+    }
+  },
+  "detail": {
+    "not-found": {
+      "record": "Record id=",
+      "not-found": "not found"
+    },
+    "breadcrumb": {
+      "history": "History",
+      "income": "Income",
+      "outcome": "Outcome"
+    },
+    "record-card": {
+      "description": "Description",
+      "amount": "Amount",
+      "category": "Category"
+    }
+  },
+  "message": {
+    "category": {
+      "created": "Category created",
+      "updated": "Category updated"
+    },
+    "record": {
+      "created": "Record created",
+      "insufficient": "Insufficient funds. Insufficient "
+    }
+  }
+}

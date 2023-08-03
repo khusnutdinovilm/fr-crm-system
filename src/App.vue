@@ -1,30 +1,31 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <message v-if="$store.state.msg" />
+  <component :is="layout + '-layout'" v-if="layout" />
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import { useRoute } from "vue-router";
+import { computed } from "vue";
 
-nav {
-  padding: 30px;
+import MainLayout from "@/layouts/MainLayout.vue";
+import EmptyLayout from "@/layouts/EmptyLayout.vue";
+import Message from "@/components/app/Message.vue";
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+export default {
+  setup() {
+    const route = useRoute();
+    return {
+      layout: computed(() => route.meta.layout),
+    };
+  },
+  components: {
+    MainLayout,
+    EmptyLayout,
+    Message,
+  },
+};
+</script>
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+<style lang="sass">
+@import "~materialize-css/dist/css/materialize.min.css"
 </style>
